@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "hugosdelight:block/prickly_pear_cactus_1"
+    },
+    "age=1": {
+      "model": "hugosdelight:block/prickly_pear_cactus_2"
+    },
+    "age=2": {
+      "model": "hugosdelight:block/prickly_pear_cactus_3"
+    },
+    "age=3": {
+      "model": "hugosdelight:block/prickly_pear_cactus_4"
+    }
+  }
+}

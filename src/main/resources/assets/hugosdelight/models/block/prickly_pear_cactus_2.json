@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "hugosdelight:block/prickly_pear_cactus_2"
+  }
+}
