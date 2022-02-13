@@ -1,0 +1,35 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "hugosdelight:block/sesame_growth0"
+    },
+    "age=1": {
+      "model": "hugosdelight:block/sesame_growth1"
+    },
+    "age=2": {
+      "model": "hugosdelight:block/sesame_growth1"
+    },
+    "age=3": {
+      "model": "hugosdelight:block/sesame_growth2"
+    },
+    "age=4": {
+      "model": "hugosdelight:block/sesame_growth2"
+    },
+    "age=6":{
+      "half=lower": {
+        "model": "hugosdelight:block/sesame_growth3_bottom"
+      },
+      "half=upper": {
+        "model": "hugosdelight:block/sesame_growth3_top"
+      }
+    },
+    "age=7":  {
+      "half=lower": {
+        "model": "hugosdelight:block/sesame_growth4_bottom"
+      },
+      "half=upper": {
+        "model": "hugosdelight:block/sesame_growth4_top"
+      }
+    }
+  }
+}

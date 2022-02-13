@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "crop": "hugosdelight:block/wild_sesames"
+  }
+}

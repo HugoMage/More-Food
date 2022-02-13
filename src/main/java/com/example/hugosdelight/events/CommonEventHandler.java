@@ -16,8 +16,9 @@ public class CommonEventHandler {
     public static void onBiomeLoad(BiomeLoadingEvent event) {
         BiomeGenerationSettingsBuilder builder = event.getGeneration();
         String name = event.getName().getPath();
+
         if (event.getCategory() == Biome.BiomeCategory.DESERT) {
-            builder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, HDPlacedFeatures.PATCH_PRICKLY_PEAR_CACTUS);
+            event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION).add(() -> HDPlacedFeatures.PATCH_PRICKLY_PEAR_CACTUS);
         }
     }
 }

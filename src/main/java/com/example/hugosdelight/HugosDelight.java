@@ -65,6 +65,11 @@ public class HugosDelight
     @SubscribeEvent
     public void registerBlockRenderer(final FMLClientSetupEvent  event) {
         ItemBlockRenderTypes.setRenderLayer(HDRegistry.PRICKLY_PEAR_CACTUS.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(HDRegistry.GARLIC_CROP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(HDRegistry.SALSIFY_CROP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(HDRegistry.SESAME_CROP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(HDRegistry.WILD_SESAMES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(HDRegistry.WILD_GARLICS.get(), RenderType.cutout());
     }
     private void processIMC(final InterModProcessEvent event)
     {

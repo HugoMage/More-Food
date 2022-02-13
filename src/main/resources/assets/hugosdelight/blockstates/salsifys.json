@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "hugosdelight:block/salsify_growth0"
+    },
+    "age=1": {
+      "model": "hugosdelight:block/salsify_growth0"
+    },
+    "age=2": {
+      "model": "hugosdelight:block/salsify_growth1"
+    },
+    "age=3": {
+      "model": "hugosdelight:block/salsify_growth1"
+    },
+    "age=4": {
+      "model": "hugosdelight:block/salsify_growth2"
+    },
+    "age=5": {
+      "model": "hugosdelight:block/salsify_growth2"
+    },
+    "age=6": {
+      "model": "hugosdelight:block/salsify_growth3"
+    },
+    "age=7": {
+      "model": "hugosdelight:block/salsify_growth3"
+    }
+  }
+}
